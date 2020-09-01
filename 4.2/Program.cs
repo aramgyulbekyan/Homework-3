@@ -16,11 +16,11 @@ namespace _4._2
             int s = 0;
             while (a > 0)
             {
-
                 s = s + a % 10; //find last digit
                 a = a / 10;// remove last digit
-
             }
+
+          
             Console.WriteLine(s);
             Console.ReadKey();
 
